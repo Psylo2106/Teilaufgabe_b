@@ -1,0 +1,252 @@
+/* Robin Koßmeier  D2MT    Zwischenprüfung     25.03. */
+
+html {
+    width: 576px;
+    margin: 0;
+    padding: 0;
+    }
+body {
+    width: 576px;
+    background-color: #2D2B32;
+    color: white;
+    font-family: trade-gothic-next, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    
+    }
+ /*                 Navigation                    */
+ 
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    z-index: 999;
+    background-color: #2D2B32;
+    list-style-type: none;
+    padding: 0 37px 0 37px;
+    margin: 0 ;
+    width: 500px;
+    position: fixed;
+    border: 1px solid white;}
+nav li {
+    float: left;
+    height: 43px;
+    width: 118px;
+    text-align: center;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    font-size: 24;
+    border: 1px solid white;}
+nav a {
+    display: inline-block;
+    text-decoration-line: none;
+    color: white;
+    margin: 5px;
+    padding: 5px;}
+nav a:hover { 
+    display: inline-block;
+    text-decoration: underline;
+    color: orange;
+    }
+
+/* HEADLINES */
+h1 {
+    font-family: trade-gothic-next-condensed, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #FFFFFF;
+    font-size: 64px;
+    margin: 0;}
+
+h2 {
+    color: #FFFFFF;
+    font-size: 39.75px;
+    margin: 0;
+    font-family: trade-gothic-next-condensed, sans-serif;
+    font-weight: 500;
+    font-style: normal;}
+
+h3 {
+    color: #FFFFFF;
+    font-size: 30px;
+    margin: 0;
+    font-family: trade-gothic-next-condensed, sans-serif;
+    font-weight: 700;
+    font-style: bold;
+text-align: center;}
+
+hr {opacity: 0;
+    margin: 0;}
+
+/* LANDING */
+.GridLanding {
+    background:url(Bild_05.png) no-repeat;
+    display: grid;
+    grid-template-rows: 20% 20% 25% 25%;
+    top: 0px;
+    left: -110px;
+    width: 576px;
+    height: 379px;
+}
+.LandingHL {
+    padding: 0 37px 0 37px;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    text-align: center;
+}
+.LandingList {
+    font-size: 24px;
+    padding: 0 37px 0 37px;
+    margin: 0;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    font-family: trade-gothic-next, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    text-align: center;
+}
+
+/* INFORMATION */
+.Info {
+    padding: 30px 37px 30px 37px;
+    font-size: 24px;
+    font-family: trade-gothic-next, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+/* AUSSTATTUNG */
+.AusstattungJPG {
+    width: 503px;
+    height: 503px;
+    border: 1px solid white;
+    margin: 0 37px 0 37px;
+}
+.AusstattungHL {
+    padding: 30px 37px 30px 37px;
+    font-family: trade-gothic-next, sans-serif;
+    text-align: center;
+}
+.AusstattungContent {
+    padding: 0px 37px 30px 37px;
+    font-size: 24px;
+    font-family: trade-gothic-next, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+/* PROGRAMM */
+.BackgroundImage {
+    background:url(Bild_01.png) no-repeat;
+    top: 1781px;
+    left: -217px;
+    width: 576px;
+    height: 1287px;
+}
+.ProgrammHL{
+        text-align: center;
+        top: 1638px;
+        padding:  57px 0 57px 0;
+}
+.Programm1{
+    top: 2281px;
+width: 576px;
+height: 217px;
+}
+.Programm1HL{
+    text-align: center;
+    top: 1901px;
+width: 576px;
+height: 277px;
+}
+.Programm1Content{
+    text-align: center;
+    top: 157px;
+width: 576px;
+font-size: 24px;
+font-family: trade-gothic-next, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.Programm2{
+    top: 2281px;
+width: 576px;
+height: 217px;
+}
+.Programm2HL{
+    text-align: center;
+width: 576px;
+}
+.Programm2Content{
+    text-align: center;
+width: 576px;
+font-size: 24px;
+font-family: trade-gothic-next, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.Programm3{
+    top: 2598px;
+left: 37px;
+width: 502px;
+height: 307px;
+}
+.Programm3HL{
+    text-align: center;
+    top: 1901px;
+width: 576px;
+height: 277px;
+}
+.Programm3Content{
+    text-align: center;
+    top: 157px;
+width: 576px;
+font-size: 24px;
+font-family: trade-gothic-next, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+/* BESUCH */
+
+.Besuch {
+        height: 375px;
+}
+
+
+/* FOOOTER */
+footer{
+    text-align: left;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px;
+    background-color: white;
+    color: #2D2B32;
+    top: 3588px;
+width: 536px;
+height: 60px;
+font-size: 14px;
+}
+#Impressum{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    align-items: top;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #2D2B32;
+}
+footer ul li a:hover{
+    text-decoration: underline;
+    color: orange;
+}
